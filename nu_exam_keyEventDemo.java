@@ -1,7 +1,7 @@
  import java.awt.*;
  import java.awt.event.*;
  import javax.swing.*;
- 
+
  public class nu_exam_keyEventDemo extends JFrame {
  	private KeyboardPanel keyboardPanel;
  	
@@ -77,7 +77,7 @@
  		protected void paintComponent(Graphics g) {
  			super.paintComponent(g);
 			drawStringMultiLine(g, keyChar, this.getWidth(), x, y);
-/*			Font f1 = new Font("TimesRoman", Font.BOLD, 18);
+			Font f1 = new Font("TimesRoman", Font.BOLD, 18);
  			g.setFont(f1);
 			FontMetrics fm = g.getFontMetrics(f1);
 			int fontWidth  = fm.stringWidth(keyChar);
@@ -100,7 +100,7 @@
 				if (currentLine.trim().length() > 0) {
 					g.drawString(currentLine, x, y);
 				}
-			}*/
+			}
  		}
  	}
  }
