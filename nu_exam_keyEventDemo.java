@@ -22,7 +22,6 @@
 		frame.setVisible(true);
 	}
  
- 	// Inner class: KeyboardPanel for receiving key input
  	static class KeyboardPanel extends JPanel {
  		private int x;
  		private int y;
